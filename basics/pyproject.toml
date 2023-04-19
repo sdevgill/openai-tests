@@ -13,6 +13,9 @@ openai = "^0.27.4"
 python-dotenv = "^1.0.0"
 
 
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.261"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
